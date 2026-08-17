@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pymc-bart
-  version: "0.12.0"
+  version: "0.13.1"
   python_min: "3.12"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pymc_bart-${{ version }}.tar.gz
-  sha256: 0335d5f6beffd78a4e8cff4bc8b73ce6537b47a7017f90c36996c29c37733083
+  sha256: dacc7f04324a9e049ffd919e30adf56e573ca2ecd8983b548fba4b36350cb7af
 
 build:
   number: 0
